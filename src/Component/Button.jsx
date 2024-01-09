@@ -20,7 +20,6 @@ const Button = ({
     padding: '5px 40px',
     border: 'none',
     borderRadius: '5px',
-    width:'180px',
     height:'40px',
     color: '#fff',
     outline: 'none',
@@ -66,6 +65,7 @@ Button.propTypes = {
 Button.defaultProps = {
   color: '#02172d',
   text: 'Click',
+  width:'300px',
   disabled: false,
 };
 

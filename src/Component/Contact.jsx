@@ -1,7 +1,6 @@
 import Button from './Button';
 import Navbar from '../Navbar';
 import React, { useState } from 'react';
-
 import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 import { TfiWorld } from "react-icons/tfi";
 import { SiHashnode } from 'react-icons/si';
@@ -51,9 +50,6 @@ const Contact = () => {
     };
 
     return (
-
-
-
         <section style={{ background: "linear-gradient(9deg, rgba(65,9,121,0.7)50%, rgba(0,212,255,0.7)100%)", height: "39.95rem" }}>
             <Navbar />
             <div className="flex justify-center items-center pt-8">
@@ -115,19 +111,9 @@ const Contact = () => {
                                 required
                             />
                         </div>
+                        <Button text="Send"
+                        
 
-                        <Button
-                            type="submit"
-                            text="Submit"
-                            style={{
-                                width: '100%',
-                                position: 'relative',
-                                bottom: '1rem',
-                                background: '#02172d',
-                                padding: '16px',
-                                borderRadius: '5px',
-                                color: '#ffffff',
-                            }}
                         />
                     </div>
                 </form>
