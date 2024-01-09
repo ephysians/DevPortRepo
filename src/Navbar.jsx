@@ -73,7 +73,7 @@ const Navbar = () => {
     };
 
     const menuStyles = {
-        transition: 'opacity 0.5s ease-in-out', // Adjust the duration and easing as needed
+        transition: 'opacity 0.7s ease-in-out', // Adjust the duration and easing as needed
         opacity: isOpen ? 1 : 0, // Initial opacity when menu is open or closed
         pointerEvents: isOpen ? 'auto' : 'none', // Enable pointer events only when menu is open
         visibility: isOpen ? 'visible' : 'hidden' // Show/hide the menu content
@@ -107,7 +107,7 @@ const Navbar = () => {
                         <Link to="/projects" onClick={isOpen ? closeMenu : undefined}>Projects</Link>
                     </li>
                     <li className="z-10 text-white hover:text-customBlue" style={{ fontSize: "medium" }}>
-                        <Link to="/credentials" onClick={isOpen ? closeMenu : undefined}>Certificate-Gallery/Resume</Link>
+                        <Link to="/about" onClick={isOpen ? closeMenu : undefined}>About/Resume</Link>
                     </li>
                     <li className="z-10 text-white hover:text-customBlue" style={{ fontSize: "medium" }}>
                         <Link to="/contact" onClick={isOpen ? closeMenu : undefined}>Let's Talk</Link>
